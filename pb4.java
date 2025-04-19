@@ -12,17 +12,17 @@ interface shape{
     void draw();
 }
 class Circle implements shape{
-    void draw(){
+   public void draw(){
         System.out.println("circle");
     }
 }
 class Triangle implements shape{
-    void draw(){
+   public  void draw(){
         System.out.println("Triangle");
     }
 }
 class Square implements shape{
-    void draw(){
+   public  void draw(){
         System.out.println("Square");
     }
 }
